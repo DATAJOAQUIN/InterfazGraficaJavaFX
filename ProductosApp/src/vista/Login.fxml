@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2C3C53; -fx-border-color: #2CA319; -fx-border-width: 3px;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.LoginController">
+   <children>
+      <Button fx:id="btnLogin" layoutX="214.0" layoutY="316.0" mnemonicParsing="false" onAction="#login" prefHeight="44.0" prefWidth="173.0" style="-fx-background-color: e9a734; -fx-text-fill: white; -fx-font-weight: bold; -fx-font-size: 20px;" text="Iniciar sesión" />
+      <TextField fx:id="txtEmail" layoutX="226.0" layoutY="188.0" />
+      <Label layoutX="226.0" layoutY="157.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="Correo electrónico" />
+      <Label layoutX="226.0" layoutY="226.0" style="-fx-text-fill: white; -fx-font-weight: bold;" text="Contraseña" />
+      <PasswordField fx:id="txtPassword" layoutX="226.0" layoutY="251.0" />
+      <Label layoutX="214.0" layoutY="80.0" text="My" textFill="#32da1c">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="279.0" layoutY="80.0" text="Company" textFill="#c69f20">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
